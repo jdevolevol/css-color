@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", serif;
+  background: linear-gradient(
+    to top right,
+    hsl(0, 100%, 70%),
+    hsl(240, 100%, 70%)
+  );
+}
+
+.card {
+  width: min(560px, 90%);
+  padding: 28px 36px;
+  background-color: hsla(0, 50%, 100%, 0.5);
+  border: 1px solid hsla(0, 0%, 100%, 0.7);
+  border-radius: 8px;
+  text-align: center;
+  color: hsl(0, 0%, 10%);
+}
+
+.card h1 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.card p {
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
